@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // CORSを許可する設定
-app.use(cors({ origin: 'https://google.com' })
+app.use(cors({ origin: 'https://google.com' });
 app.use(express.json());
 
 app.post('/gemini', async (req, res) => {
