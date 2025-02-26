@@ -9,6 +9,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "node-fetch": "^2.6.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "cors": "^2.8.5" // corsを追加
   }
 }
